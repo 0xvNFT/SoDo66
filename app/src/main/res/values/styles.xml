@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#202126</item>
+        <item name="colorPrimaryDark">#202126</item>
+        <item name="colorAccent">#202126</item>
+    </style>
+
+    <style name="CustomSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:thumb">@drawable/seekbar_custom_thumb</item>
+        <item name="android:track">@drawable/seekbar_custom_track</item>
+        <item name="android:progressDrawable">@drawable/seekbar_custom_progress</item>
+    </style>
+</resources>
